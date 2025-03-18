@@ -3,6 +3,10 @@
   "displayName": "Jet Syntax",
   "description": "Syntax highlighting for Jet",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MRegterschot/jet-syntax"
+  },
   "engines": {
     "vscode": "^1.98.0"
   },
