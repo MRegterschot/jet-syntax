@@ -1,0 +1,25 @@
+{
+  "name": "jet-syntax",
+  "displayName": "Jet Syntax",
+  "description": "Syntax highlighting for Jet",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.98.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "jet",
+      "aliases": ["Jet", "jet"],
+      "extensions": [".jet"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "jet",
+      "scopeName": "source.jet",
+      "path": "./syntaxes/jet.tmLanguage.json"
+    }]
+  }
+}
