@@ -22,7 +22,7 @@
 			"end": "\\*\\}"
 		},
 		"jet": {
-			"name": "source.jet",
+			"name": "punctuation.definition.template.jet",
 			"begin": "\\{\\{",
 			"end": "\\}\\}",
 			"patterns": [
